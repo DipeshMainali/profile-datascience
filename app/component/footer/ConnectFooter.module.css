@@ -1,0 +1,32 @@
+.footer {
+    background-color: #1a1a72; /* Dark background color for the footer */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    min-height: 60px;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s;
+
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}

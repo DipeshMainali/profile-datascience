@@ -1,0 +1,29 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /*background: #fec106;*/
+    color: #1a1a72;
+}
+
+.container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.livedList, .visitList {
+    padding: 0 40px;
+}
+
+.livedList li, .visitList li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.livedList li {
+    list-style-type: circle;
+}
+
+.visitList li {
+    list-style-type: decimal;
+}

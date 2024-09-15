@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #fec106;
+}
+
+.welcomeSection {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.typingWrapper {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #1a1a72;
+    margin-top: 20px;
+}
+
+.profileImageWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.profileImage {
+    background: white;
+    padding: 2px;
+    border-radius: 50%;
+    border: 5px solid #fec106;
+}
+
+.skillsSection {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skillCard {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skillCard:hover {
+    transform: translateY(-10px);
+}
+
+.cardLogo {
+    margin-bottom: 15px;
+}
+
+.frameworks {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.skillCard:hover .frameworks {
+    display: block;
+}
+
+.connectSection {
+    text-align: center;
+}
+
+.connectLinks {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.connectLinks li {
+    margin: 0 10px;
+}
+
+.connectLinks a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #1a73e8;
+    transition: color 0.3s;
+}
+
+.connectLinks a:hover {
+    color: #0a58ca;
+}

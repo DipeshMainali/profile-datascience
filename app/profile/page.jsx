@@ -28,7 +28,7 @@ export default function Profile() {
                 <h2 className={styles.sectionTitle}>Skills</h2>
                 <div className={styles.skillsContainer}>
                     <Card title={"Language"} icon={"/profile-datascience/icons/coder.svg"} onHoverList={language}/>
-                    <a href={"/cities"}>
+                    <a href={"/profile-datascience/cities"}>
                         <Card title={"Cities"} icon={"/profile-datascience/icons/city.svg"} onHoverList={[{name: "Click to view"}]}/>
                     </a>
                 </div>

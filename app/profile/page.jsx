@@ -9,7 +9,7 @@ export default function Profile() {
         <div className={styles.container}>
             <div className={styles.profileImageWrapper}>
                 <Image
-                    src="/profile_pic.png"
+                    src="/profile-datascience/profile_pic.png"
                     alt="Dipesh's Profile"
                     width={250}
                     height={250}
@@ -27,9 +27,9 @@ export default function Profile() {
             <section className={styles.skillsSection}>
                 <h2 className={styles.sectionTitle}>Skills</h2>
                 <div className={styles.skillsContainer}>
-                    <Card title={"Language"} icon={"/icons/coder.svg"} onHoverList={language}/>
+                    <Card title={"Language"} icon={"/profile-datascience/icons/coder.svg"} onHoverList={language}/>
                     <a href={"/cities"}>
-                        <Card title={"Cities"} icon={"/icons/city.svg"} onHoverList={[{name: "Click to view"}]}/>
+                        <Card title={"Cities"} icon={"/profile-datascience/icons/city.svg"} onHoverList={[{name: "Click to view"}]}/>
                     </a>
                 </div>
             </section>
